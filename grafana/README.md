@@ -30,6 +30,7 @@
     ps -ef | grep grafana | grep -v grep | awk "{print \$2}" | xargs -r kill
 
 
+### grafana web interface 
 
     http://{grafana.hostname}:3000
     
